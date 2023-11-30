@@ -1,0 +1,12 @@
+Crie uma variavel para armazenar o nome e xp de um heroi, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+
+<1000 = Ferro
+>1000 e <=2000 = Bronze
+>2000 e <=5000 = Prata
+>5000 e <=7000 = Ouro
+>7000 e <=8000 = Platina
+>8000 e <=9000 = Ascendente
+>9000 e <=10000= Imortal
+>10000 e <=2000= Radiante
+
+O Herói de nome {} está no nível {}
