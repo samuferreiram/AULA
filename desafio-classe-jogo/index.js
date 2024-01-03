@@ -5,33 +5,28 @@ class heroi{
         this.tipo = tipo
     }
 
-    poderHeroi(){
-        const poder = this.tipo
+    atacar(){
         
-        if(poder == "mago"){
-            console.log("magia") 
+        if(this.tipo == "mago"){
+            console.log(`O ${this.tipo} atacou usando magia`) 
         }
 
-        else if(poder == "guerreiro"){
-            console.log("espada")
+        else if(this.tipo == "guerreiro"){
+            console.log(`O ${this.tipo} atacou usando espada`)
         }
 
-        else if(poder == "monge"){
-            console.log("artes marciais")
+        else if(this.tipo == "monge"){
+            console.log(`O ${this.tipo} atacou usando artes marciais`)
         }  
 
-        else if(poder == "ninja"){
-            console.log("shuriken")
+        else if(this.tipo == "ninja"){
+            console.log(`O ${this.tipo} atacou usando shuriken`)
         }
 
     }
 
-    atacar(){
-        console.log(`O ${this.tipo} atacou usando ${poderHeroi()}.`)
-    }
 }
 
-let acao = new heroi ("Judivan", "3254", "mago")
-
+let acao = new heroi ("Judivan", "3254", "ninja")
 
 acao.atacar()
